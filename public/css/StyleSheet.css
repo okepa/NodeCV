@@ -1,0 +1,101 @@
+td{
+    vertical-align: top;
+}
+
+nav{
+    background-color: #000000;
+    padding-left: 1%;
+    padding-bottom: 1%;    
+}
+
+nav ul a:hover {
+  background-color: #696969;
+}
+
+nav ul li.active {
+  background-color: #696969;
+}
+
+.sectionBackground{
+    background-color:#D3D3D3;
+}
+
+.myParallax{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../image/milkyWay.jpg");
+  min-height: 750px;
+}
+
+.myParallax .caption{
+    position: absolute;
+    left: 0%;
+    top: 40%;
+    width: 100%;
+    transform: translateY(-40%);
+    /*background-color: #000;*/
+}
+
+.caption2 span.border2 {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.parallax-container {
+      height: 750px;
+}
+
+.parallax-container .caption{
+    position: absolute;
+    left: 0%;
+    top: 40%;
+    width: 100%;
+    transform: translateY(-40%);
+}
+
+/*Copied from materliaze*/
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
+
+.parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.parallax img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+/*end copied from materialize*/
+
+.footer{
+    background-color: #000000;
+    color: #fff;
+}
+
+.footer img{
+    width: 50px;
+    height: 50px;
+}
+
