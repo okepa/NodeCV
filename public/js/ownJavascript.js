@@ -16,7 +16,8 @@ $(document).ready(function(){
         {selector: '.personalDetails', offset: 200, callback: '$(".personalDetails").addClass("bounceInRight animated").css("visibility", "visible")'},   
         {selector: '.education', offset: 200, callback: '$(".education").addClass("bounceInLeft animated").css("visibility", "visible")'},
         {selector: '.jobs', offset: 200, callback: '$(".jobs").addClass("bounceInRight animated").css("visibility", "visible")'},
-        {selector: '.skills', offset: 200, callback: '$(".skills").addClass("bounceInLeft animated").css("visibility", "visible")'}    
+        {selector: '.skills', offset: 200, callback: '$(".skills").addClass("bounceInLeft animated").css("visibility", "visible")'},
+        {selector: '.contact', offset: 200, callback: '$(".contact").addClass("bounceInRight animated").css("visibility", "visible")'}       
     ];
 
     Materialize.scrollFire(options);
