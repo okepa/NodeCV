@@ -3,11 +3,12 @@ $(document).ready(function(){
     $('.slider').slider({full_width: true});
     $('.slider').slider({height: 690});
 
-   
     // Parallax
     $('.parallax').parallax();
     //Carousel
     $('.carousel').carousel();
+    //Modal
+    $('.modal').modal();
 
     $(function(){
                 
@@ -17,7 +18,9 @@ $(document).ready(function(){
         {selector: '.education', offset: 200, callback: '$(".education").addClass("bounceInLeft animated").css("visibility", "visible")'},
         {selector: '.jobs', offset: 200, callback: '$(".jobs").addClass("bounceInRight animated").css("visibility", "visible")'},
         {selector: '.skills', offset: 200, callback: '$(".skills").addClass("bounceInLeft animated").css("visibility", "visible")'},
-        {selector: '.contact', offset: 200, callback: '$(".contact").addClass("bounceInRight animated").css("visibility", "visible")'}       
+        {selector: '.portfolio', offset: 200, callback: '$(".portfolio").addClass("bounceInRight animated").css("visibility", "visible")'},   
+        {selector: '.contact', offset: 200, callback: '$(".contact").addClass("bounceInLeft animated").css("visibility", "visible")'}
+               
     ];
 
     Materialize.scrollFire(options);
