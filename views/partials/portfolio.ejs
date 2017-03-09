@@ -2,43 +2,91 @@
 <section id="portfolio">
     <div class="section portfolio" style="visibility: hidden;">
         <div class="row container">
-            <h4>Portfolio</h4>
-            <!--Express generator-->
-            <div class="col s12 m12 l4">
-                <h5>Express Generator</h5>
-                <a data-target="expressGenerator"><img class="responsive-img" src="image/portfolio/expressgenerator.png" /></a>
+            <div class="col s12 m12 l12">
+                <h4>Portfolio</h4>
+                <!--Express generator-->
+                <div class="col s12 m12 l4">
+                    <h5>Express Generator</h5>
+                    <a data-target="expressGenerator"><img class="responsive-img" src="image/portfolio/expressgenerator.png"></a>
+                </div>
+                <!--FFFilter-->
+                <div class="col s12 m12 l4">
+                    <h5>FFFilter</h5>
+                    <a data-target="fFFilter"><img class="responsive-img" src="image/portfolio/fffilter.png" ></a>
+                </div>
+                <!--Sparta Tracker-->
+                <div class="col s12 m12 l4">
+                    <h5>Sparta Tracker</h5>
+                    <a data-target="spartaTracker"><img class="responsive-img" src="image/portfolio/spartatracker.png" ></a>
+                </div>
             </div>
-            <!--Blackjack-->
-            <div class="col s12 m12 l4">
-                <h5>Blackjack</h5>
-                <a data-target="blackjack"><img class="responsive-img" src="image/portfolio/blackjack.png" href="#blackjack"></a>
-            </div>
-            <!--Rock Paper Scissors-->
-            <div class="col s12 m12 l4">
-                <h5>Rock Paper Scissors</h5>
-                <a data-target="rps"><img class="responsive-img" src="image/portfolio/rps.png" href="#rps"></a>
-            </div>
-            <!--Naughts and Crosses-->
-            <div class="col s12 m12 l4">
-                <h5>Naughts and Crosses</h5>
-                <a data-target="nc"><img class="responsive-img" src="image/portfolio/nc.png" href="#nc"></a>
+            <div class="col s12 m12 l12">
+                <!--Blackjack-->
+                <div class="col s12 m12 l4">
+                    <h5>Blackjack</h5>
+                    <a data-target="blackjack"><img class="responsive-img" src="image/portfolio/blackjack.png" ></a>
+                </div>
+                <!--Rock Paper Scissors-->
+                <div class="col s12 m12 l4">
+                    <h5>Rock Paper Scissors</h5>
+                    <a data-target="rps"><img class="responsive-img" src="image/portfolio/rps.png" ></a>
+                </div>
+                <!--Naughts and Crosses-->
+                <div class="col s12 m12 l4">
+                    <h5>Naughts and Crosses</h5>
+                    <a data-target="nc"><img class="responsive-img" src="image/portfolio/nc.png" ></a>
+                </div>
             </div>
         </div>
     </div>
     <!-- Express generator modal -->
     <div id="expressGenerator" class="modal">
         <div class="modal-content">
-            <h4>Express Generator</h4>
+            <h4>Express Generator OK</h4>
+            <h5>Description</h5>
+            <p>The express-generator-ok generates a blank express project with a rMVC structure with blank routes. It uses an
+                ejs javascript template and also includes the materialize framework. It generates a Procfile if you want
+                to deploy your project to heroku.</p>
             <h5>NPM Package</h5>
-            <a href="https://www.npmjs.com/package/express-generator-ok">Express Generator NPM</a>
+            <a href="https://www.npmjs.com/package/express-generator-ok">Express Generator OK NPM</a>
             <h5>Github Repository</h5>
-            <a href="https://github.com/okepa/express-generator-ok">Express Generator Github</a>
+            <a href="https://github.com/okepa/express-generator-ok">Express Generator OK Github</a>
+        </div>
+    </div>
+    <!-- FFFilter modal -->
+    <div id="fFFilter" class="modal">
+        <div class="modal-content">
+            <h4>FFFilter</h4>
+            <h5>Description</h5>
+            <p>This project allows you to add fics to your favorites and filters the results that appear on the fanfiction website
+                to only show fics that you haven't added to your favorites.
+            </p>
+            <h5>FFFilter hosted on Heroku</h5>
+            <a href="http://fffilter.herokuapp.com/">FFFilter Heroku</a>
+            <h5>Github Repository</h5>
+            <a href="https://github.com/okepa/FFFilter">FFFilter Github</a>
+        </div>
+    </div>
+    <!-- Sparta Tracker modal -->
+    <div id="spartaTracker" class="modal">
+        <div class="modal-content">
+            <h4>Sparta Tracker</h4>
+            <h5>Description</h5>
+            <p>The Spartan Tracker allows the management of
+                Sparta Global to keep track of the Spartans attendance and performance while they are in training and also
+                keep track of which Spartans are on site.
+            </p>
         </div>
     </div>
     <!-- Blackjack modal -->
     <div id="blackjack" class="modal">
         <div class="modal-content">
             <h4>Blackjack</h4>
+            <h5>Description</h5>
+            <p>The blackjack project allows
+                a user to register and login, add and withdraw money to their account, refer a friend to create an account
+                and play Blackjack using the money they have added.
+            </p>
             <h5>Blackjack hosted on Heroku</h5>
             <a href="http://blackjackwebtest.herokuapp.com/">Blackjack Heroku</a>
             <h5>Github Repository</h5>
@@ -49,6 +97,8 @@
     <div id="rps" class="modal">
         <div class="modal-content">
             <h4>Rock Paper Scissors</h4>
+            <h5>Description</h5>
+            <p>This is a single player Rock Paper Scissors game.</p>
             <h5>Github Repository</h5>
             <a href="https://github.com/okepa/RPS">Rock Paper Scissors Github</a>
         </div>
@@ -57,6 +107,8 @@
     <div id="nc" class="modal">
         <div class="modal-content">
             <h4>Naughts and Crosses</h4>
+            <h5>Description</h5>
+            <p>This is a two player Naughts and Crosses game.</p>
             <h5>Github Repository</h5>
             <a href="https://github.com/okepa/xo">Naughts and Crosses Github</a>
         </div>
